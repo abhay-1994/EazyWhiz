@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DB connected]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched ]]>
+    </line>
+    <line>
+      <![CDATA[--DB connectoin closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-17T11:35:19 IST" name="Default suite" finished-at="2024-04-17T11:36:08 IST" duration-ms="48940">
+    <groups>
+    </groups>
+    <test started-at="2024-04-17T11:35:19 IST" name="Default test" finished-at="2024-04-17T11:36:08 IST" duration-ms="48940">
+      <class name="com.tyss.easywhiz.user.OrderProductTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:35:19 IST" name="connectToDB" finished-at="2024-04-17T11:35:19 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:35:19 IST" name="launchTheBrowser" finished-at="2024-04-17T11:35:25 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="implicitWait()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:35:25 IST" name="implicitWait" finished-at="2024-04-17T11:35:25 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicitWait -->
+        <test-method signature="orderProductTest()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:35:25 IST" name="orderProductTest" finished-at="2024-04-17T11:36:07 IST" duration-ms="42504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProductTest -->
+        <test-method is-config="true" signature="minimize()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:36:07 IST" name="minimize" finished-at="2024-04-17T11:36:08 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimize -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.tyss.easywhiz.user.OrderProductTest@8c3b9d]" started-at="2024-04-17T11:36:08 IST" name="closeDB" finished-at="2024-04-17T11:36:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--DB connectoin closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.tyss.easywhiz.user.OrderProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
